@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Описание проекта">
+    <title>Порфтолио работ</title>
+    <link rel="stylesheet" href="css/style.min.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="main-header">
+        <div class="main-header__container container">
+          <p class="main-header__title">Portfolio</p>
+          <button class="main-header__toggle" id="menu-toggle">
+            <svg width="30" height="30">
+              <use xlink:href="img/sprite/sprite.svg#menu-closed"></use>
+            </svg>
+            <svg width="30" height="30">
+              <use xlink:href="img/sprite/sprite.svg#menu-opened"></use>
+            </svg>
+            <span class="visually-hidden">Кнопка открытия и закрытия меню</span>
+          </button>
+          <nav class="main-header__nav">
+            <a class="main-header__link main-header__link--github">
+              <svg width="30" height="30">
+                <use xlink:href="img/sprite/sprite.svg#github"></use>
+              </svg>
+              <span class="vidually-hidden">Github</span>
+            </a>
+            <a class="main-header__link main-header__link--leetcode">
+              <svg width="30" height="30">
+                <use xlink:href="img/sprite/sprite.svg#leetcode"></use>
+              </svg>
+              <span class="vidually-hidden">Leetcode</span>
+            </a>
+            <a class="main-header__link main-header__link--mail">
+              <svg width="30" height="30">
+                <use xlink:href="img/sprite/sprite.svg#email"></use>
+              </svg>
+              <span class="vidually-hidden">Email</span>
+            </a>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <section class="intro">
+          <div class="container"></div>
+        </section>
+      </main>
+      <footer>
+        <div class="container"></div>
+      </footer>
+    </div>
+    <script src="js/vendor.min.js"></script>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
