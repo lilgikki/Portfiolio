@@ -1,0 +1,65 @@
+.main-footer {
+  background-color: $color-punga;
+  box-shadow: 0 0 5px $color-punga;
+}
+
+.main-footer__container {
+  padding: 30px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @include vp-1279 {
+    padding: 25px 24px;
+  }
+
+  @include vp-767 {
+    padding: 20px 16px;
+  }
+}
+
+.main-footer__title {
+  color: $color-old-lace;
+  user-select: none;
+  max-width: 200px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin: 0;
+  margin-right: 0;
+  font-size: 20px;
+  height: fit-content;
+}
+
+.main-footer__button {
+  transition: 0.3s;
+  max-width: 200px;
+  user-select: none;
+  cursor: pointer;
+  width: fit-content;
+  font-weight: 400;
+  font-size: 18px;
+  color: $color-old-lace;
+  background-color: $color-tacao;
+  border: none;
+  border-radius: 5px;
+  padding: 7px;
+
+  @include vp-767 {
+    max-width: 80px;
+    font-size: 14px;
+  }
+}
+
+.main-footer__button:hover {
+  transition: 0.3s;
+  box-shadow: 0 0 10px $color-tacao;
+  text-shadow: 0 0 10px $color-old-lace;
+}
+
+.main-footer__button:active {
+  transition: 0.3s;
+  background-color: $color-old-lace;
+  color: $color-tacao;
+  box-shadow: 0 0 10px $color-old-lace;
+  text-shadow: 0 0 10px $color-tacao;
+}

@@ -1,5 +1,7 @@
 import {iosVhFix} from './utils/ios-vh-fix';
 import {initModals} from './modules/modals/init-modals';
+import {setMenu} from './menu.js';
+import {sliderProjects} from './vendor.js';
 
 // ---------------------------------
 
@@ -9,6 +11,8 @@ window.addEventListener('DOMContentLoaded', () => {
   // ---------------------------------
 
   iosVhFix();
+  setMenu();
+  sliderProjects();
 
   // Modules
   // ---------------------------------
