@@ -1,5 +1,5 @@
 .contacts {
-  background-color: $color-old-lace;
+  background-color: $color-default-white;
   position: relative;
 }
 
@@ -11,28 +11,6 @@
   @include vp-767 {
     max-width: 320px;
   }
-}
-
-.contacts::before {
-  opacity: 0.5;
-  content: "";
-  width: 100%;
-  background-image: url("../img/svg/wave.svg");
-  background-repeat: repeat-x;
-  height: 60px;
-  position: absolute;
-  top: -15px;
-}
-
-.contacts::after {
-  opacity: 0.5;
-  content: "";
-  width: 100%;
-  background-image: url("../img/svg/wave.svg");
-  background-repeat: repeat-x;
-  height: 60px;
-  position: absolute;
-  bottom: -15px;
 }
 
 .contacts__inner {

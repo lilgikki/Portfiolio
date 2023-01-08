@@ -1,0 +1,144 @@
+.about {
+  background-color: $color-old-lace;
+  position: relative;
+}
+
+.about::before {
+  opacity: 0.5;
+  content: "";
+  width: 100%;
+  background-image: url("../img/svg/wave.svg");
+  background-repeat: repeat-x;
+  height: 60px;
+  position: absolute;
+  top: -15px;
+}
+
+.about::after {
+  opacity: 0.5;
+  content: "";
+  width: 100%;
+  background-image: url("../img/svg/wave.svg");
+  background-repeat: repeat-x;
+  height: 60px;
+  position: absolute;
+  bottom: -15px;
+}
+
+.about__title {
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  color: $color-tacao;
+
+  @include vp-767 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+}
+
+.about__inner {
+  display: grid;
+  grid-template-columns: 50% 45%;
+  grid-column-gap: 5%;
+
+  @include vp-767 {
+    grid-template-columns: 100%;
+  }
+}
+
+.about__pic {
+  transition: 0.3s;
+  margin-bottom: auto;
+
+  @include vp-767 {
+    display: none;
+  }
+}
+
+.about__img {
+  border-radius: 30%;
+  width: 100%;
+  box-shadow: 3px 3px 10px #b3b7b1;
+}
+
+.about__text {
+  margin-bottom: auto;
+}
+
+.about__text p {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+
+  @include vp-1279 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  @include vp-767 {
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+  }
+}
+
+.about__button {
+  cursor: pointer;
+  font-family: "Montserrat", "Arial", sans-serif;
+  border: none;
+  transition: 0.3s;
+  width: fit-content;
+  user-select: none;
+  font-weight: 400;
+  font-size: 18px;
+  color: $color-old-lace;
+  background-color: $color-tacao;
+  border-radius: 5px;
+  padding: 7px;
+
+  @include vp-767 {
+    width: 100%;
+    font-size: 16px;
+  }
+}
+
+.about__button:hover {
+  transition: 0.3s;
+  color: $color-old-lace;
+  background-color: $color-tacao;
+  box-shadow: 0 0 10px $color-tacao;
+  text-shadow: 0 0 10px $color-old-lace;
+}
+
+.about__button:active {
+  transition: 0.3s;
+  color: $color-tacao;
+  background-color: $color-old-lace;
+  box-shadow: 0 0 5px $color-old-lace;
+}
+
+.about--hidden .about__text-hidden {
+  display: none;
+}
+
+.about--active .about__text-hidden {
+  animation: showBlock 1s linear forwards;
+  display: block;
+}
+
+@keyframes showBlock {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

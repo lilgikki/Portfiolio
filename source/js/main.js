@@ -3,6 +3,7 @@ import {initModals} from './modules/modals/init-modals';
 import {setMenu} from './menu.js';
 import {sliderProjects} from './vendor.js';
 import {scrollToContacts, scrollToTop} from './scroll.js';
+import {getParAbout} from './about-par.js';
 
 // ---------------------------------
 
@@ -16,6 +17,7 @@ window.addEventListener('DOMContentLoaded', () => {
   sliderProjects();
   scrollToContacts();
   scrollToTop();
+  getParAbout();
 
   // Modules
   // ---------------------------------
