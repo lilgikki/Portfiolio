@@ -2,6 +2,7 @@ import {iosVhFix} from './utils/ios-vh-fix';
 import {initModals} from './modules/modals/init-modals';
 import {setMenu} from './menu.js';
 import {sliderProjects} from './vendor.js';
+import {scrollToContacts, scrollToTop} from './scroll.js';
 
 // ---------------------------------
 
@@ -13,6 +14,8 @@ window.addEventListener('DOMContentLoaded', () => {
   iosVhFix();
   setMenu();
   sliderProjects();
+  scrollToContacts();
+  scrollToTop();
 
   // Modules
   // ---------------------------------

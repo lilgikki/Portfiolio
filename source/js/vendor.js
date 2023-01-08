@@ -15,6 +15,7 @@ const sliderProjects = () => {
       spaceBetween: 100,
       loop: true,
       autoHeight: true,
+      allowTouchMove: false,
     });
   }
 };

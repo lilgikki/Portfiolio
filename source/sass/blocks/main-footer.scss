@@ -1,4 +1,7 @@
 .main-footer {
+  width: 100%;
+  min-width: 320px;
+  overflow: hidden;
   background-color: $color-punga;
   box-shadow: 0 0 5px $color-punga;
 }
