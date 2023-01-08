@@ -2221,6 +2221,7 @@ button,
 }
 
 .about__img {
+  background-color: #d5ddd0;
   border-radius: 30%;
   width: 100%;
   -webkit-box-shadow: 3px 3px 10px #b3b7b1;
@@ -2401,6 +2402,7 @@ button,
 }
 
 .contacts__img {
+  background-color: #d5ddd0;
   border-radius: 50%;
   width: 100%;
   -webkit-box-shadow: 3px 3px 10px #b3b7b1;
