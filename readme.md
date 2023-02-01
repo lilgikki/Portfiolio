@@ -7,18 +7,14 @@
 - **Telegram** @gorny4ka
 
 #### Tech Stack:
-- HTML, PUG
-- SCSS, Less
-- JavaScript, Gulp
-
-#### Another skills:
-- Figma, Photoshop
-- English B1
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)	![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white) ![Less](https://img.shields.io/badge/less-2B4C80?style=for-the-badge&logo=less&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Pug](https://img.shields.io/badge/Pug-FFF?style=for-the-badge&logo=pug&logoColor=A86454) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white) 
 
 #### Education:
-- SPbU Faculty of Applied Mathematics and Control Processes *2019-2021*
+- St.Petersburg University. Faculty of Applied Mathematics and Control Processes *2019-2021*
 - <a href="https://drive.google.com/file/d/1jmHB7o06GITccE7YcdEdrebZVEwUiKlK/view?usp=sharing" target="_blank">HTML Academy "Profession Front-end developer"<a> *2022*
+- English B1
 
+#### Level up my JS skills with leetcode:
 [![My LeetCode stats](https://leetcode-stats-six.vercel.app/api?username=lilgikki)](https://github.com/lilgikki/lilgikki)
 
 <!-- ### Основные команды для работы
