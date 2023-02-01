@@ -15,8 +15,8 @@
 - #### English B1
 
 ### About me:
-#### I've been studying layout and programming for about a year now. Studied Mathematics and C++ at university.
-#### I worked as a tutor for children and teenagers, so have strong nerves & a lot of goodwill. Like to work in a team and communicate with people
+**I've been studying layout and programming for about a year now. Studied Mathematics and C++ at university.**
+**I worked as a tutor for children and teenagers, so have strong nerves & a lot of goodwill. Like to work in a team and communicate with people**
 
 ### Level up my JS skills with leetcode:
 [![My LeetCode stats](https://leetcode-stats-six.vercel.app/api?username=lilgikki)](https://github.com/lilgikki/lilgikki)
