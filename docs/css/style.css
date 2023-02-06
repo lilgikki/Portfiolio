@@ -1893,6 +1893,7 @@ button,
 .main-banner__img {
   width: 100%;
   border-radius: 30%;
+  background-color: #d5ddd0;
 }
 
 .main-banner__text {
